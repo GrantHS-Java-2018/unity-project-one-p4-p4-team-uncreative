@@ -1,7 +1,47 @@
 fileFormatVersion: 2
 guid: 6afbdd9fb7ad6084a885852b08518026
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: freeParking
+    21300002: M'nopoly_0
+    21300004: strand
+    21300006: chance
+    21300008: fleetStreet
+    21300010: trafalgarSquare
+    21300012: fenchurchStation
+    21300014: M'nopoly_1
+    21300016: M'nopoly_2
+    21300018: M'nopoly_3
+    21300020: M'nopoly_4
+    21300022: M'nopoly_5
+    21300024: M'nopoly_6
+    21300026: M'nopoly_7
+    21300028: M'nopoly_8
+    21300030: M'nopoly_9
+    21300032: M'nopoly_10
+    21300034: M'nopoly_11
+    21300036: M'nopoly_12
+    21300038: M'nopoly_13
+    21300040: M'nopoly_14
+    21300042: M'nopoly_15
+    21300044: M'nopoly_16
+    21300046: M'nopoly_17
+    21300048: M'nopoly_18
+    21300050: M'nopoly_19
+    21300052: M'nopoly_20
+    21300054: M'nopoly_21
+    21300056: M'nopoly_22
+    21300058: M'nopoly_23
+    21300060: M'nopoly_24
+    21300062: M'nopoly_25
+    21300064: M'nopoly_26
+    21300066: M'nopoly_27
+    21300068: M'nopoly_28
+    21300070: M'nopoly_29
+    21300072: M'nopoly_30
+    21300074: M'nopoly_31
+    21300076: M'nopoly_32
+    21300078: M'nopoly_33
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +109,820 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: freeParking
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1394
+        width: 202
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e314a25d1de39ba4d9115e7d30df3148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_0
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1398
+        width: 201
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808c9642903e9104cb2cb484171a2128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: strand
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1389
+        width: 122
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff848647f80c39d42b5f9bb6482f5bad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chance
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1391
+        width: 118
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08c9b40006735d41804e17901e0531a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fleetStreet
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1392
+        width: 120
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b127d4b67ad54e43b288c1d120b6eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trafalgarSquare
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1392
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d1a63727e035c418001d119c4266d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fenchurchStation
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1389
+        width: 122
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399d0a63e9f20334eb19a7ddbd881cab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_1
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1389
+        width: 120
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bf6d414e1fc054ea1116642685979b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1385
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63048bde5c806a3449ba543a9195ad77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_3
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 9
+        width: 207
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267a78be0a74faf43a9b68ccd0c3b743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_4
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4
+        width: 118
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a455ba356149ec45968a8c8dabe3671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_5
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 6
+        width: 120
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd9b1f8175763645867177f21e187d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_6
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 6
+        width: 118
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fca706e59f4d044f87a4403f216c21c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_7
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 6
+        width: 120
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8443954a550400542a86bbce88dbaf00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_8
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 6
+        width: 122
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9fb7e95974914488dd0b7a09eff0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 9
+        width: 119
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c516e0eb970a147a3a0701e789252b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_10
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2
+        width: 120
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a0345de81ce448ab4ffe25de8e07a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 8
+        width: 119
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9520cd7ec3f8f4f82d2de189f87fc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 8
+        width: 120
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d443f4302d362af449befd9d77cffd42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 209
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f6566f7d4b5d4983eae96c5ac73ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 208
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6011397618f4d449d2510911c720e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 350
+        width: 209
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323ef15b96e3ea64f8c173bfa6243ef1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 475
+        width: 205
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6786a0807e01749a5f9a4411286038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 605
+        width: 205
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c618ed7a1261a55409e44249d1f93e3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 210
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1947f030b9d22c44bfe7435acc1107e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 867
+        width: 209
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847bc5b171061fa4da46e943301a8b84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1000
+        width: 207
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c1fa415e282da43b06887451e80c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1130
+        width: 205
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8ca46bbcca0294daacdbe0f54751cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1259
+        width: 207
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4ae61f1a659a24a92ceb009dc21bb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_23
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1391
+        width: 122
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a84062e66dfcff4babc6dfec79d30e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_24
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1389
+        width: 120
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cd294cb871cd1488f74316a4ccd1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_25
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1259
+        width: 205
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4892f3dc44c9eb4ea268aaffc19cff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_26
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1127
+        width: 205
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82bf01329f41a45ac6cf2ce566eed5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_27
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 999
+        width: 203
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92e0d68c9443dc49a72efa788e807a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_28
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 867
+        width: 203
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a3004fa7d88304386df2b5f4d72dd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_29
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 737
+        width: 207
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf428238086bbb947a382e743086cc08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_30
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 607
+        width: 209
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b830f98fd8dfeda46bec24289f2645fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_31
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 475
+        width: 205
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc508205a904814da2da019d18a14be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_32
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 347
+        width: 203
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a3b3b330585df4f8da634a47464e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M'nopoly_33
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 219
+        width: 207
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7699a7905862f3744b03d1b74a380309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
