@@ -5,6 +5,7 @@ public class Dice : MonoBehaviour {
 
     // Array of dice sides sprites to load from Resources folder
     private Sprite[] Dice1;
+    private Sprite[] Dice2;
 
     // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
@@ -17,6 +18,7 @@ public class Dice : MonoBehaviour {
 
         // Load dice sides sprites to array from DiceSides subfolder of Resources folder
         Dice1 = Resources.LoadAll<Sprite>("Dice1");
+        Dice2 = Resources.LoadAll<Sprite>("Dice2");
     }
 	
     // If you left click over the dice then RollTheDice coroutine is started
