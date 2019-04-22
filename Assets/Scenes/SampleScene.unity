@@ -2513,7 +2513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Illiinois Avenue
+  Name: Illinois Avenue
   Type: Property
   position: 24
 --- !u!4 &1310870994
