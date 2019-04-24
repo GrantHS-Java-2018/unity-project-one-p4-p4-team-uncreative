@@ -10,7 +10,7 @@ public class Dice : MonoBehaviour {
     private SpriteRenderer rend;
 
     // Use this for initialization
-    private void Start () {
+     void Start () {
 
         // Assign Renderer component
         rend = GetComponent<SpriteRenderer>();
@@ -20,7 +20,7 @@ public class Dice : MonoBehaviour {
     }
 	
     // If you left click over the dice then RollTheDice coroutine is started
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         StartCoroutine("RollTheDice");
     }
