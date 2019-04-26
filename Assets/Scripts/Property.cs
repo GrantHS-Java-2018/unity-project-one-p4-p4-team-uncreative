@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Property : MonoBehaviour
+public abstract class Property : GameTile
 {
     public int rent;
     public int cost;
+    
+    
 }
