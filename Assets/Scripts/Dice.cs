@@ -20,7 +20,7 @@ public class Dice : MonoBehaviour {
     }
 	
     // If you left click over the dice then RollTheDice coroutine is started
-    public void OnMouseDown()
+    public void RollDice()
     {
         StartCoroutine("RollTheDice");
     }
@@ -51,7 +51,7 @@ public class Dice : MonoBehaviour {
 
         // Assigning final side so you can use this value later in your game
         // for player movement for example
-        finalSide = randomDiceSide + 1;
+        finalSide = randomDiceSide + 1;                                                                                                                                                         
 
         // Show final dice value in Console
         Debug.Log(finalSide);

@@ -240,8 +240,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 130489314}
-  - component: {fileID: 130489313}
-  - component: {fileID: 130489312}
   - component: {fileID: 130489311}
   - component: {fileID: 130489310}
   m_Layer: 0
@@ -312,44 +310,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &130489312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130489309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 26
-  cost: 300
---- !u!114 &130489313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130489309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Pacific Avenue
-  Type: Property
-  position: 31
 --- !u!4 &130489314
 Transform:
   m_ObjectHideFlags: 0
@@ -523,7 +487,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 43760426}
-        m_MethodName: OnMouseDown
+        m_MethodName: RollDice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -534,7 +498,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 406024742}
-        m_MethodName: OnMouseDown
+        m_MethodName: RollDice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -671,8 +635,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 403042115}
-  - component: {fileID: 403042114}
-  - component: {fileID: 403042113}
   - component: {fileID: 403042112}
   m_Layer: 0
   m_Name: Utility1
@@ -729,39 +691,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &403042113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 403042111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 4
-  cost: 150
---- !u!114 &403042114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 403042111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Electric Company
-  Type: Property
-  position: 12
 --- !u!4 &403042115
 Transform:
   m_ObjectHideFlags: 0
@@ -904,8 +833,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492077509}
-  - component: {fileID: 492077508}
-  - component: {fileID: 492077507}
   - component: {fileID: 492077506}
   - component: {fileID: 492077505}
   m_Layer: 0
@@ -976,44 +903,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &492077507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492077504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 10
-  cost: 140
---- !u!114 &492077508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492077504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: States Avenue
-  Type: Property
-  position: 13
 --- !u!4 &492077509
 Transform:
   m_ObjectHideFlags: 0
@@ -1037,8 +930,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496283190}
-  - component: {fileID: 496283189}
-  - component: {fileID: 496283188}
   - component: {fileID: 496283187}
   - component: {fileID: 496283186}
   m_Layer: 0
@@ -1109,44 +1000,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &496283188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496283185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 14
-  cost: 180
---- !u!114 &496283189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496283185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Tennessee Avenue
-  Type: Property
-  position: 18
 --- !u!4 &496283190
 Transform:
   m_ObjectHideFlags: 0
@@ -1381,8 +1238,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540128478}
-  - component: {fileID: 540128477}
-  - component: {fileID: 540128476}
   - component: {fileID: 540128475}
   - component: {fileID: 540128474}
   m_Layer: 0
@@ -1453,44 +1308,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &540128476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540128473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 12
-  cost: 160
---- !u!114 &540128477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540128473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Virginia Avenue
-  Type: Property
-  position: 14
 --- !u!4 &540128478
 Transform:
   m_ObjectHideFlags: 0
@@ -1593,8 +1414,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 546513138}
-  - component: {fileID: 546513137}
-  - component: {fileID: 546513136}
   - component: {fileID: 546513135}
   - component: {fileID: 546513134}
   m_Layer: 0
@@ -1665,44 +1484,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &546513136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546513133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 35
-  cost: 350
---- !u!114 &546513137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546513133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Park Place
-  Type: Property
-  position: 37
 --- !u!4 &546513138
 Transform:
   m_ObjectHideFlags: 0
@@ -1726,8 +1511,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 683431688}
-  - component: {fileID: 683431687}
-  - component: {fileID: 683431686}
   - component: {fileID: 683431685}
   - component: {fileID: 683431684}
   m_Layer: 0
@@ -1798,44 +1581,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &683431686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683431683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 26
-  cost: 300
---- !u!114 &683431687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683431683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: North Carolina Avenue
-  Type: Property
-  position: 32
 --- !u!4 &683431688
 Transform:
   m_ObjectHideFlags: 0
@@ -1859,8 +1608,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 713309605}
-  - component: {fileID: 713309604}
-  - component: {fileID: 713309603}
   - component: {fileID: 713309602}
   - component: {fileID: 713309601}
   m_Layer: 0
@@ -1930,45 +1677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  Type: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
---- !u!114 &713309603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713309600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  Name: Connecticut Avenue
+  position: 9
   rent: 8
   cost: 120
---- !u!114 &713309604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713309600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Connecticut Avenue
-  Type: Property
-  position: 9
+  color: 1
 --- !u!4 &713309605
 Transform:
   m_ObjectHideFlags: 0
@@ -1992,8 +1705,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734778048}
-  - component: {fileID: 734778047}
-  - component: {fileID: 734778046}
   - component: {fileID: 734778045}
   - component: {fileID: 734778044}
   m_Layer: 0
@@ -2064,44 +1775,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &734778046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734778043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 50
-  cost: 400
---- !u!114 &734778047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734778043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Boardwalk
-  Type: Property
-  position: 39
 --- !u!4 &734778048
 Transform:
   m_ObjectHideFlags: 0
@@ -2125,8 +1802,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 803715143}
-  - component: {fileID: 803715142}
-  - component: {fileID: 803715141}
   - component: {fileID: 803715140}
   - component: {fileID: 803715139}
   m_Layer: 0
@@ -2197,44 +1872,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &803715141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 803715138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 28
-  cost: 320
---- !u!114 &803715142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 803715138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Pennsylvania Avenue
-  Type: Property
-  position: 34
 --- !u!4 &803715143
 Transform:
   m_ObjectHideFlags: 0
@@ -2258,8 +1899,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 878432333}
-  - component: {fileID: 878432332}
-  - component: {fileID: 878432331}
   - component: {fileID: 878432330}
   - component: {fileID: 878432329}
   m_Layer: 0
@@ -2330,44 +1969,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &878432331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878432328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 18
-  cost: 220
---- !u!114 &878432332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878432328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Indiana Avenue
-  Type: Property
-  position: 23
 --- !u!4 &878432333
 Transform:
   m_ObjectHideFlags: 0
@@ -2549,8 +2154,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1088487698}
-  - component: {fileID: 1088487697}
-  - component: {fileID: 1088487696}
   - component: {fileID: 1088487695}
   - component: {fileID: 1088487694}
   m_Layer: 0
@@ -2621,44 +2224,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
---- !u!114 &1088487696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088487693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  position: 1
   rent: 2
   cost: 60
---- !u!114 &1088487697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088487693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Mediterranean Avenue
-  Type: Property
-  position: 1
+  color: 0
 --- !u!4 &1088487698
 Transform:
   m_ObjectHideFlags: 0
@@ -2682,8 +2251,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1110693989}
-  - component: {fileID: 1110693988}
-  - component: {fileID: 1110693987}
   - component: {fileID: 1110693986}
   - component: {fileID: 1110693985}
   m_Layer: 0
@@ -2754,44 +2321,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &1110693987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110693984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 16
-  cost: 200
---- !u!114 &1110693988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110693984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: New York Avenue
-  Type: Property
-  position: 19
 --- !u!4 &1110693989
 Transform:
   m_ObjectHideFlags: 0
@@ -2815,8 +2348,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1184687565}
-  - component: {fileID: 1184687564}
-  - component: {fileID: 1184687563}
   - component: {fileID: 1184687562}
   - component: {fileID: 1184687561}
   m_Layer: 0
@@ -2887,44 +2418,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &1184687563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184687560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 22
-  cost: 260
---- !u!114 &1184687564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184687560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Atlantic Avenue
-  Type: Property
-  position: 26
 --- !u!4 &1184687565
 Transform:
   m_ObjectHideFlags: 0
@@ -2948,8 +2445,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1272923057}
-  - component: {fileID: 1272923056}
-  - component: {fileID: 1272923055}
   - component: {fileID: 1272923054}
   - component: {fileID: 1272923053}
   m_Layer: 0
@@ -3020,44 +2515,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &1272923055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272923052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 10
-  cost: 140
---- !u!114 &1272923056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272923052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: St. Charles Place
-  Type: Property
-  position: 11
 --- !u!4 &1272923057
 Transform:
   m_ObjectHideFlags: 0
@@ -3081,8 +2542,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1310870994}
-  - component: {fileID: 1310870993}
-  - component: {fileID: 1310870992}
   - component: {fileID: 1310870991}
   - component: {fileID: 1310870990}
   m_Layer: 0
@@ -3153,44 +2612,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &1310870992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310870989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 20
-  cost: 240
---- !u!114 &1310870993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310870989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Illinois Avenue
-  Type: Property
-  position: 24
 --- !u!4 &1310870994
 Transform:
   m_ObjectHideFlags: 0
@@ -3293,8 +2718,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1347344992}
-  - component: {fileID: 1347344991}
-  - component: {fileID: 1347344990}
   - component: {fileID: 1347344989}
   m_Layer: 0
   m_Name: Utility2
@@ -3351,39 +2774,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1347344990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347344988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 4
-  cost: 150
---- !u!114 &1347344991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347344988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Water Works
-  Type: Property
-  position: 28
 --- !u!4 &1347344992
 Transform:
   m_ObjectHideFlags: 0
@@ -3407,8 +2797,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1350539932}
-  - component: {fileID: 1350539931}
-  - component: {fileID: 1350539930}
   - component: {fileID: 1350539929}
   - component: {fileID: 1350539928}
   m_Layer: 0
@@ -3478,45 +2866,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  Type: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
---- !u!114 &1350539930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1350539927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  Name: Vermont Avenue
+  position: 8
   rent: 6
   cost: 100
---- !u!114 &1350539931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1350539927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Vermont Avenue
-  Type: Property
-  position: 8
+  color: 1
 --- !u!4 &1350539932
 Transform:
   m_ObjectHideFlags: 0
@@ -3540,8 +2894,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1355396873}
-  - component: {fileID: 1355396872}
-  - component: {fileID: 1355396871}
   - component: {fileID: 1355396870}
   - component: {fileID: 1355396869}
   m_Layer: 0
@@ -3612,44 +2964,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &1355396871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355396868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 24
-  cost: 280
---- !u!114 &1355396872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355396868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Marvin Gardens
-  Type: Property
-  position: 29
 --- !u!4 &1355396873
 Transform:
   m_ObjectHideFlags: 0
@@ -3673,8 +2991,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1505921000}
-  - component: {fileID: 1505920999}
-  - component: {fileID: 1505920998}
   - component: {fileID: 1505920997}
   - component: {fileID: 1505920996}
   m_Layer: 0
@@ -3744,45 +3060,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  Type: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
---- !u!114 &1505920998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1505920995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 4
-  cost: 60
---- !u!114 &1505920999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1505920995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   Name: Baltic Avenue
-  Type: Property
   position: 3
+  rent: 2
+  cost: 60
+  color: 0
 --- !u!4 &1505921000
 Transform:
   m_ObjectHideFlags: 0
@@ -3872,8 +3154,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1831989865}
-  - component: {fileID: 1831989864}
-  - component: {fileID: 1831989863}
   - component: {fileID: 1831989862}
   - component: {fileID: 1831989861}
   m_Layer: 0
@@ -3944,44 +3224,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &1831989863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831989860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 14
-  cost: 180
---- !u!114 &1831989864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831989860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: St. James Place
-  Type: Property
-  position: 16
 --- !u!4 &1831989865
 Transform:
   m_ObjectHideFlags: 0
@@ -4183,8 +3429,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003993755}
-  - component: {fileID: 2003993754}
-  - component: {fileID: 2003993753}
   - component: {fileID: 2003993752}
   - component: {fileID: 2003993751}
   m_Layer: 0
@@ -4254,45 +3498,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  Type: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
---- !u!114 &2003993753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003993750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  Name: Oriental Avenue
+  position: 6
   rent: 6
   cost: 100
---- !u!114 &2003993754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003993750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Oriental Avenue
-  Type: Property
-  position: 6
+  color: 1
 --- !u!4 &2003993755
 Transform:
   m_ObjectHideFlags: 0
@@ -4316,8 +3526,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2067257964}
-  - component: {fileID: 2067257963}
-  - component: {fileID: 2067257962}
   - component: {fileID: 2067257961}
   - component: {fileID: 2067257960}
   m_Layer: 0
@@ -4388,44 +3596,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &2067257962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067257959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 18
-  cost: 220
---- !u!114 &2067257963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067257959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Kentucky Avenue
-  Type: Property
-  position: 21
 --- !u!4 &2067257964
 Transform:
   m_ObjectHideFlags: 0
@@ -4449,8 +3623,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125088604}
-  - component: {fileID: 2125088603}
-  - component: {fileID: 2125088602}
   - component: {fileID: 2125088601}
   - component: {fileID: 2125088600}
   m_Layer: 0
@@ -4521,44 +3693,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  Type: 
   position: 0
   rent: 0
   cost: 0
   color: 0
---- !u!114 &2125088602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125088599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63886ddbbc9f954fa6554a544efd877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rent: 22
-  cost: 260
---- !u!114 &2125088603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125088599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e593e2ca9c64c4640bb30982afc366a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Ventnor Avenue
-  Type: Property
-  position: 27
 --- !u!4 &2125088604
 Transform:
   m_ObjectHideFlags: 0
