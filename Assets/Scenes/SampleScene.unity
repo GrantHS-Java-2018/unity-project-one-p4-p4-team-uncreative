@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 174097395}
   - component: {fileID: 174097394}
   m_Layer: 0
-  m_Name: PlayerPiece_Boot
+  m_Name: Player_Boot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 375528826}
   - component: {fileID: 375528825}
   m_Layer: 0
-  m_Name: PlayerPiece_Thimble
+  m_Name: Player_Thimble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1998,7 +1998,7 @@ GameObject:
   - component: {fileID: 985227558}
   - component: {fileID: 985227557}
   m_Layer: 0
-  m_Name: PlayerPiece_Car
+  m_Name: Player_Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2077,7 +2077,7 @@ GameObject:
   - component: {fileID: 1072826389}
   - component: {fileID: 1072826388}
   m_Layer: 0
-  m_Name: PlayerPiece_Hat
+  m_Name: Player_Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2641,7 +2641,7 @@ GameObject:
   - component: {fileID: 1340548813}
   - component: {fileID: 1340548812}
   m_Layer: 0
-  m_Name: PlayerPiece_Dog
+  m_Name: Player_Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3352,7 +3352,7 @@ GameObject:
   - component: {fileID: 1949278178}
   - component: {fileID: 1949278177}
   m_Layer: 0
-  m_Name: PlayerPiece_Wheelbarrow
+  m_Name: Player_Wheelbarrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
