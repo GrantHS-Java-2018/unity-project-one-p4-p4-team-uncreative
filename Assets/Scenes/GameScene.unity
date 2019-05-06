@@ -401,11 +401,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Pacific Avenue
+  position: 31
+  rent: 26
+  cost: 300
+  color: 6
 --- !u!4 &130489314
 Transform:
   m_ObjectHideFlags: 0
@@ -994,11 +994,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: States Avenue
+  position: 13
+  rent: 10
+  cost: 140
+  color: 2
 --- !u!4 &492077509
 Transform:
   m_ObjectHideFlags: 0
@@ -1091,11 +1091,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Tennesse Avenue
+  position: 18
+  rent: 14
+  cost: 180
+  color: 3
 --- !u!4 &496283190
 Transform:
   m_ObjectHideFlags: 0
@@ -1491,11 +1491,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Virginia Avenue
+  position: 14
+  rent: 12
+  cost: 160
+  color: 2
 --- !u!4 &540128478
 Transform:
   m_ObjectHideFlags: 0
@@ -1667,11 +1667,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Park Place
+  position: 37
+  rent: 35
+  cost: 350
+  color: 7
 --- !u!4 &546513138
 Transform:
   m_ObjectHideFlags: 0
@@ -1935,11 +1935,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: North Carolina Avenue
+  position: 32
+  rent: 26
+  cost: 300
+  color: 6
 --- !u!4 &683431688
 Transform:
   m_ObjectHideFlags: 0
@@ -2129,11 +2129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Boardwalk
+  position: 39
+  rent: 40
+  cost: 400
+  color: 7
 --- !u!4 &734778048
 Transform:
   m_ObjectHideFlags: 0
@@ -2226,11 +2226,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Pennsylvania Avenue
+  position: 34
+  rent: 28
+  cost: 320
+  color: 6
 --- !u!4 &803715143
 Transform:
   m_ObjectHideFlags: 0
@@ -2323,11 +2323,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Indiana Avenue
+  position: 23
+  rent: 18
+  cost: 220
+  color: 4
 --- !u!4 &878432333
 Transform:
   m_ObjectHideFlags: 0
@@ -2335,13 +2335,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878432328}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: 4.29, z: -0.0703125}
+  m_LocalRotation: {x: 0.0065510175, y: -0, z: -0, w: 0.99997854}
+  m_LocalPosition: {x: -1.72, y: 4.29, z: -0.0703125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.75100005, y: 0, z: 0}
 --- !u!1 &985227556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Mediterranean Avenue
   position: 1
   rent: 2
   cost: 60
@@ -2767,11 +2767,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: New York Avenue
+  position: 19
+  rent: 16
+  cost: 200
+  color: 3
 --- !u!4 &1110693989
 Transform:
   m_ObjectHideFlags: 0
@@ -3084,11 +3084,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Atlantic Avenue
+  position: 26
+  rent: 22
+  cost: 260
+  color: 5
 --- !u!4 &1184687565
 Transform:
   m_ObjectHideFlags: 0
@@ -3181,11 +3181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: St. Charles Place
+  position: 11
+  rent: 10
+  cost: 140
+  color: 2
 --- !u!4 &1272923057
 Transform:
   m_ObjectHideFlags: 0
@@ -3278,11 +3278,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Illinois Avenue
+  position: 24
+  rent: 20
+  cost: 240
+  color: 4
 --- !u!4 &1310870994
 Transform:
   m_ObjectHideFlags: 0
@@ -3630,11 +3630,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Marvin Gardins
+  position: 29
+  rent: 24
+  cost: 280
+  color: 5
 --- !u!4 &1355396873
 Transform:
   m_ObjectHideFlags: 0
@@ -4554,11 +4554,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: St. James Place
+  position: 16
+  rent: 14
+  cost: 180
+  color: 3
 --- !u!4 &1831989865
 Transform:
   m_ObjectHideFlags: 0
@@ -5202,11 +5202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Kentucky Avenue
+  position: 21
+  rent: 18
+  cost: 220
+  color: 4
 --- !u!4 &2067257964
 Transform:
   m_ObjectHideFlags: 0
@@ -5299,11 +5299,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42958f21ecead9149877cf65a3932e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  position: 0
-  rent: 0
-  cost: 0
-  color: 0
+  Name: Ventnor Avenue
+  position: 27
+  rent: 22
+  cost: 260
+  color: 5
 --- !u!4 &2125088604
 Transform:
   m_ObjectHideFlags: 0
