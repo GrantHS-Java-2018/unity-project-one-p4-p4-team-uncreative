@@ -408,6 +408,7 @@ GameObject:
   - component: {fileID: 1413198112}
   - component: {fileID: 1413198111}
   - component: {fileID: 1413198110}
+  - component: {fileID: 1413198115}
   - component: {fileID: 1413198114}
   m_Layer: 0
   m_Name: Start Button
@@ -520,7 +521,19 @@ RectTransform:
   m_AnchoredPosition: {x: -5.44, y: 2.09}
   m_SizeDelta: {x: 6.921, y: 6.921}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!61 &1413198114
+--- !u!114 &1413198114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413198109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f8b476a6e8270429d2cc410d4397db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1413198115
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -533,7 +546,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000047683716, y: 0.00000011920929}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -544,5 +557,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.9241695, y: 2.6923454}
+  m_Size: {x: 8.2, y: 3.41}
   m_EdgeRadius: 0
