@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScenePress : MonoBehaviour
 {
-    public void ChangeScene()
+    public void OnMouseUpAsButton()
     {
         SceneManager.LoadScene("CharacterSelect");
     }
+
 
 }
