@@ -3,57 +3,44 @@ using UnityEngine;
 
 public class Dice : MonoBehaviour {
 
-    // Array of dice sides sprites to load from Resources folder
-    private Sprite[] Dice1;
-
-    // Reference to sprite renderer to change sprites
+    private Sprite[] diceSides;
     private SpriteRenderer rend;
+    private int whosTurn = 1;
+    private bool coroutineAllowed = true;
 
-    // Use this for initialization
-     void Start () {
-
-        // Assign Renderer component
+	// Use this for initialization
+	private void Start () {
         rend = GetComponent<SpriteRenderer>();
+        diceSides = Resources.LoadAll<Sprite>("DiceSides/");
+        rend.sprite = diceSides[5];
+	}
 
-        // Load dice sides sprites to array from DiceSides subfolder of Resources folder
-        Dice1 = Resources.LoadAll<Sprite>("Dice1");
-    }
-	
-    // If you left click over the dice then RollTheDice coroutine is started
-    public void RollDice()
+    private void OnMouseDown()
     {
-        StartCoroutine("RollTheDice");
+        if (!GameControl.gameOver && coroutineAllowed)
+            StartCoroutine("RollTheDice");
     }
 
-    // Coroutine that rolls the dice
     private IEnumerator RollTheDice()
     {
-        // Variable to contain random dice side number.
-        // It needs to be assigned. Let it be 0 initially
+        coroutineAllowed = false;
         int randomDiceSide = 0;
-
-        // Final side or value that dice reads in the end of coroutine
-        int finalSide = 0;
-
-        // Loop to switch dice sides randomly
-        // before final side appears. 20 iterations here.
         for (int i = 0; i <= 20; i++)
         {
-            // Pick up random value from 0 to 5 (All inclusive)
             randomDiceSide = Random.Range(0, 6);
-
-            // Set sprite to upper face of dice from array according to random value
-            rend.sprite = Dice1[randomDiceSide];
-
-            // Pause before next iteration
+            rend.sprite = diceSides[randomDiceSide];
             yield return new WaitForSeconds(0.05f);
         }
 
-        // Assigning final side so you can use this value later in your game
-        // for player movement for example
-        finalSide = randomDiceSide + 1;                                                                                                                                                         
-
-        // Show final dice value in Console
-        Debug.Log(finalSide);
+        GameControl.diceSideThrown = randomDiceSide + 1;
+        if (whosTurn == 1)
+        {
+            GameControl.MovePlayer(1);
+        } else if (whosTurn == -1)
+        {
+            GameControl.MovePlayer(2);
+        }
+        whosTurn *= -1;
+        coroutineAllowed = true;
     }
 }
