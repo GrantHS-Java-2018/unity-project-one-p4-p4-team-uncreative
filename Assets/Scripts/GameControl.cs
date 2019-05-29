@@ -22,7 +22,7 @@ public class GameControl : MonoBehaviour {
 
         player1 = GameObject.Find("Player1");
         player2 = GameObject.Find("Player2");
-
+        Debug.Log(player1.GetComponent<Move>().moveAllowed);
         player1.GetComponent<Move>().moveAllowed = false;
         player2.GetComponent<Move>().moveAllowed = false;
 
