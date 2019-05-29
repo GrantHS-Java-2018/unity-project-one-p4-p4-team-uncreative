@@ -15,7 +15,7 @@ public class Dice : MonoBehaviour {
         rend.sprite = diceSides[5];
 	}
 
-    private void DoStuff()
+    public void StartRoll()
     {
         if (!GameControl.gameOver && coroutineAllowed)
             StartCoroutine("RollTheDice");
