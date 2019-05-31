@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Move : MonoBehaviour {
+public class FollowThePath : MonoBehaviour {
 
     public Transform[] waypoints;
 
@@ -20,10 +20,10 @@ public class Move : MonoBehaviour {
     // Update is called once per frame
     private void Update () {
         if (moveAllowed)
-            FollowThePath();
+            Move();
     }
 
-    private void FollowThePath()
+    private void Move()
     {
         if (waypointIndex <= waypoints.Length - 1)
         {
