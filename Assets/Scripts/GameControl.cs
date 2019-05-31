@@ -23,11 +23,11 @@ public class GameControl : MonoBehaviour {
         player1 = GameObject.Find("Player1");
         player2 = GameObject.Find("Player2");
         Debug.Log(player1.GetComponent<Move>().moveAllowed);
-        player1.GetComponent<Move>().moveAllowed = false;
+        player1.GetComponent<Move>().moveAllowed = true;
         player2.GetComponent<Move>().moveAllowed = false;
 
         whoWinsText.gameObject.SetActive(false);
-        player1MoveText.gameObject.SetActive(true);
+        player1MoveText.gameObject.SetActive(false);
         player2MoveText.gameObject.SetActive(false);
     }
 
