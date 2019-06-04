@@ -33,7 +33,7 @@ public class Player
 
     [SerializeField] private GameObject playerGameObject;
 
-    [SerializeField] private Moveit playerMovementObject;
+    //[SerializeField] private Moveit playerMovementObject;
 
     public void SetNumber(int playerIndex)
     {
@@ -50,15 +50,15 @@ public class Player
         _tokenSprite = token;
     }
     
-    public void SetTileManager()
-    {
-        _tileArray = TileManager.GetAllTiles();
-    }
+  //public void SetTileManager()
+  //  {
+   //     _tileArray = TileManager.GetAllTiles();
+  //  }
     
     public void PlaceOnBoard()
     {
         _currentPosition = _tileArray[0].GetTilePosition();
-        playerMovementObject = GameObject.Find("PlayerMovement").GetComponent<Moveit>();
+        //playerMovementObject = GameObject.Find("PlayerMovement").GetComponent<Moveit>();
         
         playerGameObject = new GameObject();
         playerGameObject.name = "Player " + _playerNumber;
@@ -92,15 +92,15 @@ public class Player
 
     public IEnumerator MoveCoroutine(int diceSum)
     {
-        Vector3 finalPosition = TileManager.GetTile(GetNextMovementWaypoint(diceSum)).GetTilePosition();
+       // Vector3 finalPosition = TileManager.GetTile(GetNextMovementWaypoint(diceSum)).GetTilePosition();
         
-        while (_currentPosition != finalPosition)
+      //  while (_currentPosition != finalPosition)
         {   
-            Vector3 nextPosition = TileManager.GetTile(GetNextMovementWaypoint(1)).GetTilePosition();
+          //  Vector3 nextPosition = TileManager.GetTile(GetNextMovementWaypoint(1)).GetTilePosition();
             
-            while (_currentPosition != nextPosition)
+          //  while (_currentPosition != nextPosition)
             {
-                _currentPosition = Vector3.MoveTowards(_currentPosition, nextPosition, 10f);
+           //     _currentPosition = Vector3.MoveTowards(_currentPosition, nextPosition, 10f);
                 UpdatePosition();
                 yield return null;
             }
