@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace GameInformation
 {
-    public static class TileInformation
+    public static class TileInformation//a lot of this is useless to us
     {
         public static (String, Vector3, int[]) GetTileInformation(int tileIndex)
         {
@@ -15,10 +15,10 @@ namespace GameInformation
             {
                 propertyValueArray[n] = PropertyValuesSource[tileIndex, n];
             }
-            return (NameSource[tileIndex], Waypoints[tileIndex], propertyValueArray);
+            return (NameSource[tileIndex], Waypoints[tileIndex], propertyValueArray); //gets all the tile information like money value, waypoint position, color, etc.
         }
         
-        private static readonly String[] NameSource = 
+        private static readonly String[] NameSource = //all the names of the properties
         {
             "Go", 
             "Mediterranean Avenue", 
