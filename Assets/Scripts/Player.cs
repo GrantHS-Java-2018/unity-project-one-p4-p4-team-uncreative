@@ -52,8 +52,9 @@ public class Player
     
     public void SetTileManager()
     {
-        _tileArray = TileManager.GetAllTiles();
+  //      _tileArray = TileManager.GetAllTiles();
     }
+
     
     public void PlaceOnBoard()
     {
@@ -92,25 +93,20 @@ public class Player
 
     public IEnumerator MoveCoroutine(int diceSum)
     {
-        Vector3 finalPosition = TileManager.GetTile(GetNextMovementWaypoint(diceSum)).GetTilePosition();
+      //  Vector3 finalPosition = TileManager.GetTile(GetNextMovementWaypoint(diceSum)).GetTilePosition();
         
-        while (_currentPosition != finalPosition)
+       // while (_currentPosition != finalPosition)
         {   
-            Vector3 nextPosition = TileManager.GetTile(GetNextMovementWaypoint(1)).GetTilePosition();
+         //   Vector3 nextPosition = TileManager.GetTile(GetNextMovementWaypoint(1)).GetTilePosition();
             
-            while (_currentPosition != nextPosition)
+        //    while (_currentPosition != nextPosition)
             {
-                _currentPosition = Vector3.MoveTowards(_currentPosition, nextPosition, 10f);
+        //        _currentPosition = Vector3.MoveTowards(_currentPosition, nextPosition, 10f);
                 UpdatePosition();
                 yield return null;
             }
             currentWaypoint = GetNextMovementWaypoint(1);
         }
-    }
-
-    public void SendCoroutine(int location) //send to a specific location
-    {
-         
     }
     
     public void GoToJail() //send to jail, RIGHT THROUGH BOARD, DO NOT PASS OTHER TILES
