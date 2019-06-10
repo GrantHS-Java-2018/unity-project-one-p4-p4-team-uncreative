@@ -7,7 +7,7 @@ public class ChangeScenePress : MonoBehaviour
 {
     public void OnMouseUpAsButton()
     {
-        SceneManager.LoadScene("CharacterSelect");
+        SceneManager.LoadScene("GameScene");
     }
 
 

@@ -29,7 +29,7 @@ namespace CharacterSelect
             players = new Player[2];
             for (int n = 0; n < 2; n++)
             {
-                players[n] = gameObject.AddComponent<Player>();
+             //   players[n] = gameObject.AddComponent<Player>(); //we didn't really get a chance to fully fix this so I just had to comment it out so that everything else can work
             }
         }
         
